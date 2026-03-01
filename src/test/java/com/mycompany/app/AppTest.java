@@ -44,4 +44,11 @@ public class AppTest {
         int result = app.fib(7);
         assertTrue(result == 13);
     }
+
+    @Test
+    void fibTest9(){
+        App app = new App();
+        int result = app.fib(9);
+        assertTrue(result == 34);
+    }
 }
